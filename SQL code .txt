@@ -1,0 +1,22 @@
+SQL code :
+
+--Let's create the table as customers_details
+
+create table customers_details(id integer,name varchar(100),product_id alphanumeric,product_price integer,contact_number integer);
+
+--Let's insert data's into table customers_details
+
+insert into customers_details(id,name,product_id,product_price,contact_number)values(1,'Gomathi','HSdc003',90,9342294236);
+insert into customers_details(id,name,product_id,product_price,contact_number)values(2,'Sangeetha','HSdc016',85,9524130295);
+insert into customers_details(id,name,product_id,product_price,contact_number)values(3,'Maha Lib','HSdc017',50,9788939439);
+insert into customers_details(id,name,product_id,product_price,contact_number)values(4,'Manthra','HSdc046',55,9384926810);
+insert into customers_details(id,name,product_id,product_price,contact_number)values(5,'Illakiya','HSdc027',50,9342594117);
+insert into customers_details(id,name,product_id,product_price,contact_number)values(6,'Vishnu Priya','HSdc001',100,8438316694);
+insert into customers_details(id,name,product_id,product_price,contact_number)values(7,'Saratha Preethi','HSdc107',150,8838589481);
+insert into customers_details(id,name,product_id,product_price,contact_number)values(8,'Vishnu Priya','HSdc107',150,8438316694);
+insert into customers_details(id,name,product_id,product_price,contact_number)values(9,'Rajarajeshwari','HSdc021',100,9791349621);
+insert into customers_details(id,name,product_id,product_price,contact_number)values(10,'Rajarajeshwari','HSdc026',55,9791349621);
+
+--Let's select all the data from table customers_details
+
+select*from customers_details;
