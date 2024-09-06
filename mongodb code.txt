@@ -1,0 +1,18 @@
+MongoDB Code:
+
+
+mongosh
+use customers
+db.customers_details.insertOne({id:1,name:"Gomathi",product_id:"HSdc003",product_price:90,contact_number:9342568740})
+db.customers_details.insertOne({id:2,name:"Sangeetha",product_id:"HSdc016",product_price:85,contact_number:9342212326})
+db.customers_details.insertOne({id:3,name:"Maha Lib",product_id:"HSdc017",product_price:50,contact_number:8342212326})
+db.customers_details.insertOne({id:4,name:"Manthra",product_id:"HSdc046",product_price:55,contact_number:8324212326})
+db.customers_details.deleteOne({id:4})
+db.customers_details.find()
+db.customers_details.insertOne({id:5,name:"Illakiya",product_id:"HSdc027",product_price:50,contact_number:8325429631})
+db.customers_details.find().sort()
+db.customers_details.find().sort({id:1})
+db.customers_details.find().sort({id:-1})
+db.customers_details.find().sort({id:-1}).limit(3)
+db.customers_details.find().sort({id:1}).limit(3)
+db.customers_details.find().skip(2)
